@@ -9,7 +9,7 @@ services:
     run:
       command: bundle exec rails server -b 0.0.0.0 -p 8080
     release:
-      command: rails db:migrate
+      command: rails db:migrate && rails db:seed
     ports:
       - port: 8080
         http_options:
