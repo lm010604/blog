@@ -1,0 +1,19 @@
+name: blog
+services:
+  - name: web
+    git:
+      repo: https://github.com/lm010604/blog
+      branch: main
+    build:
+      command: bundle install
+    run:
+      command: bundle exec rails server -b 0.0.0.0 -p 8080
+    release:
+      command: rails db:migrate
+    ports:
+      - port: 8080
+        http_options:
+          force_https: true
+    env:
+      - key: RAILS_ENV
+        value: production
