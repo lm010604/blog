@@ -1,0 +1,18 @@
+current directory: /Users/laurenmok/Desktop/Projects/blog/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/laurenmok/.rbenv/versions/3.4.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/laurenmok/Desktop/Projects/blog/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20250803-39415-e31hdm sitelibdir\=./.gem.20250803-39415-e31hdm clean
+
+current directory: /Users/laurenmok/Desktop/Projects/blog/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20250803-39415-e31hdm sitelibdir\=./.gem.20250803-39415-e31hdm
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/laurenmok/Desktop/Projects/blog/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20250803-39415-e31hdm sitelibdir\=./.gem.20250803-39415-e31hdm install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20250803-39415-e31hdm/skiptrace/internal
+
+current directory: /Users/laurenmok/Desktop/Projects/blog/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20250803-39415-e31hdm sitelibdir\=./.gem.20250803-39415-e31hdm clean
